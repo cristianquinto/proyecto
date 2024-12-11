@@ -1,0 +1,430 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    text-align: justify;
+}
+/* css de index */
+.bodyindex{
+  background: url(../imagenes/fondoindex.jpg);
+  background-size: cover;
+  color: black;
+}
+.headerindex{
+  background-color:#FEF2EC;
+  text-align: center;   
+  margin-bottom: 100px;
+  font-size: 30px;
+  word-spacing: 10px;
+  border-radius: 4px;
+}
+.clasnav {
+  list-style: none;
+  padding: 18px;
+}
+
+.clasnav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+.clasnav ul li a {
+  color: #750706;
+  text-decoration: none;
+}
+
+.clasnav li:hover{
+  padding: 18px;
+  background: #0A0E06;
+}
+.sectionindex{
+  display: flex;
+  padding: auto;
+  background-color: rgba(238, 231, 231, 0.295);
+}
+.divindex{
+  height: 100px;
+  margin-left: 150px;
+  padding: 3%;
+  text-align: center;
+}
+.divindex{
+  display: block;
+}
+
+.h2bindex{
+  font-size: 60px;
+  color: #FEF2EC;
+  text-decoration: #750706;
+  text-shadow: 4px 4px 4px #750706;
+  margin-right: 150px;
+}
+.h2aindex{
+  font-size: 65px;
+  margin-right: 200px;
+}
+.pindex{
+  font-size: 20px;
+  margin-right: 200px;
+  width: 300px;
+}
+/* tamaño y ubicacion de el texto que va sobre el boton "ir" */
+.h3index{
+  margin-left: 300px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+/* definicion de el boton "ir" e "ingresar" */
+.divindex button:hover{
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #750706;
+}
+
+.divindex button {
+  display: inline-block;
+  padding: 10px 10px;
+  background: #ffffff38;
+  margin: auto;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.divindex button a{
+  text-decoration: none;
+  color: #ffffff;
+  width: 20px;
+  height: 40px;
+  color: white;  
+}
+
+.as a:hover{
+  color: #750706;
+}
+
+.ast a:hover{
+  color: #750706;
+}
+
+/* desde este punto empieza el css de el footer */
+.footerindex{
+  text-align: center;
+  background-color:azure;
+  height: 150px;
+  color: rgb(12, 12, 12);
+  margin-top: 170px;
+  border-radius: 6px;
+}
+
+/* definicion de el boton tamaño forma color etc */
+.footerindex button {
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  background: #000000;
+  border: none;
+  margin: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.footerindex button a{
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 6px;
+  width: 20px;
+  height: 40px;
+  color: white;  
+  font-size: 30px;
+  margin-top: 800px;
+}
+.footerindex button:hover{
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #750706;
+  background: none;
+}
+.art:hover{
+  color: #750706;
+}
+
+.red{
+  margin-left: 1200px;
+  margin-top: -80px;
+}
+
+/* css de productos */
+/* cuerpo y general*/
+.contenido {
+  background-color: #FEF2EC;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Barra de navegación */
+.contenido header {
+  background-color: #0a0e062d;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+}
+.contenido input{
+  margin-left: 500px;
+  width: 25%;
+  padding: 10px 30px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #252525;
+  border-radius: 20px;
+}
+
+
+/* Sección de Productos */
+/* .contenido main{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  text-align: justify;
+} */
+
+.contenido-principal {
+  padding: 1rem;
+}
+
+.contenido-principal article {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #1d1d1b;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  gap: 50px;
+  padding: 50px 0;
+}
+.productos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 100px;
+  color: #000;
+}
+.productos .producto {
+  display:inline-block;
+  width: 300px;
+  margin: 0 1.5%;
+  text-align: center;
+  background: #E5E7E6;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+}
+
+.productos .producto img {
+  width: 200px;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.productos .producto p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Estilos de las Cards */
+.nose {
+  padding: 10px;
+}
+
+.nose h3 {
+  margin-bottom: 14px;
+  color: #b9b9b9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid #750706;
+  color: #fff;
+  text-decoration: none;
+  background: #750706;
+}
+
+.btn:hover {
+  background: none;
+  color: #000;
+}
+
+/*formulario de registro */
+
+/* este es el estilo del main, lo que hace que tenga:
+tamaño de ancho - la distancia del borde interno - centrado - color de fondo - color de letra - tipo de letra */ 
+.registro{
+    background: #000000;
+}
+.form {
+    width: 800px;
+    background: #350101;
+    padding: 40px;
+    margin: 70px;
+    margin-left: 260px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 1px 1px 17px 17px #1d1d1b;
+}
+
+  /* */ 
+.form label {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+    /*tamaño y de los input */ 
+  .form .controls {
+    width: 100%;
+    background: #1d1d1b;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ff0400;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+  .form h1{
+    text-align: center;
+    line-height: 25px;
+    color: #dddddd;
+}
+  
+.form p {
+    height: 40px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 35px;
+
+}
+
+    /* hace que ya tengo cuenta sea de color negro al pasar el mouse sobre ella */ 
+  .form a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+  /* forma, color y tamaño del boton */ 
+  .form .botons {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    text-decoration: none;
+    background: #b7b5b3;
+    border: none;
+    color: rgb(8, 8, 8);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/* colores de boton enviar y restablecer cuando se pasa sobre él*/ 
+.form .botons:hover{
+    color: #b7b5b3;
+    border: 2px solid #750706;
+    background: none;
+}
+
+
+/*css del login*/
+/* color de fondo*/ 
+.login {
+    background: #000;
+    color: #ccc;
+}
+    
+    .login header img{
+      margin: auto;
+      width: 70px;
+      height: 30px;
+}
+    
+    .login main{
+      height: 300px;
+    }
+    .login main h1{
+      text-align: center;
+      font-size: 70px;
+      margin: 130px;
+      margin-left: 60px;
+    }
+    .login main ul{
+      margin: 30px;
+      font-size: 40px;
+      list-style: none;
+      margin-left: 700px;
+      text-decoration: none;
+    }
+    .login main a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .login main img{
+      background-color: #b7b5b3;
+    }
+    
+    /* estilos del footer login*/
+    .login .container{
+      margin: 100px;
+      display: flex;
+      flex-direction: row;
+      
+    }
+    
+    .login footer p{
+      font-size: 20px;
+      padding: 10px;
+      margin-top: 10px;
+      text-align: justify;
+    }
+    
+    .login .inf{
+      text-align: center;
+      border: 1px solid #ffffff;
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    .login button {
+      display: inline-block;
+      padding: 10px 40px;
+      text-decoration: none;
+      background: #750706;
+      border: none;
+      color: rgb(255, 255, 255);
+      margin: 10px;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    
+    .login button a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    .login button:hover{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #b7b5b3;
+      border: 2px solid #750706;
+      background: none;
+    }
+    .iml{
+      width: 50px;
+      height: 50px;
+    }
