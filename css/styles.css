@@ -39,6 +39,12 @@ body {
   padding: 18px;
   background: #0A0E06;
 }
+
+/* es te id es el de la imagen de logo */
+.clasnav #limg{
+  background: none;
+}
+
 .sectionindex{
   display: flex;
   padding: auto;
